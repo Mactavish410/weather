@@ -1,5 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
 .container {
   width: 1440px;
   margin: 0 auto;
   background: linear-gradient(225deg, #9065bc 0%, rgba(255, 0, 108, 0.38) 100%);
+  display: flex;
+  justify-content: space-between;
+}
+.left{
+  width: 70%;
+}
+.right{
+  width: 30%;
 }

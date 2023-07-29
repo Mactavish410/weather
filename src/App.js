@@ -1,6 +1,7 @@
 import "./App.scss";
 import WeatherToDay from "./components/WeatherToDay/WeatherToDay";
 import Slider from "./components/Slider/Slider";
+import SityAndInfo from "./components/CityAndInfo/CityAndInfo";
 
 function App() {
   return (
@@ -10,7 +11,9 @@ function App() {
           <WeatherToDay />
           <Slider />
         </div>
-        <div className="right"></div>
+        <div className="right">
+          <SityAndInfo />
+        </div>
       </div>
     </div>
   );
